@@ -5,6 +5,8 @@
       
       System.out.println("Hello, World - Yuri Noronha de Oliveira, Brazil!");
       //Enter your command line bellow, so we can test out the shared file and edition, please! :)
+      System.out.println("Hello, World - Editing directly onto the file, Ingrid.");
+      System.out.println("Hello, World -  Marcelo.");
       
    System.out.println("Felipe Santos") ;
    
