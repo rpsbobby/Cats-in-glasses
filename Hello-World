@@ -1,0 +1,10 @@
+{
+   public static void main(String args[]);
+    {
+      
+      
+      System.out.println("Hello, World - Yuri Noronha de Oliveira, Brazil!");
+      //Enter your command line bellow, so we can test out the shared file and edition, please! :)
+      
+   } 
+}
