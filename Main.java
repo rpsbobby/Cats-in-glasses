@@ -1,5 +1,7 @@
 package com.company;
 
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,6 +10,7 @@ public class Main {
         // to call a method
         // <yourMethodName>();
         example();
+        methodRobert();
 
 
 
@@ -23,6 +26,11 @@ public class Main {
 
      public static void example(){
          System.out.println("Example method");
+     }
+     public static void methodRobert (){
+         int a = 4, b = 5;
+         float sum = (float) (a+b)/2;
+         System.out.println("sum of "+a+" + "+b+" devided by numebr of factors = "+sum);
      }
 }
 
