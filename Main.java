@@ -10,7 +10,7 @@ public class Main {
         // to call a method
         // <yourMethodName>();
         example();
-        methodRobert();
+        methodRobert(2.4,4.5);
 
 
 
@@ -27,9 +27,11 @@ public class Main {
      public static void example(){
          System.out.println("Example method");
      }
-     public static void methodRobert (){
-         int a = 4, b = 5;
-         float sum = (float) (a+b)/2;
+     public static void methodRobert (double number1,double number2){
+         // author Robert Szlufik 
+         // method will add two numbers entered when method is called,
+         // calcuate sum and divide by 2
+         double sum = (number1+number2)/2;
          System.out.println("sum of "+a+" + "+b+" devided by numebr of factors = "+sum);
      }
 }
