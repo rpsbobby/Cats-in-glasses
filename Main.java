@@ -32,7 +32,7 @@ public class Main {
          // method will add two numbers entered when method is called,
          // calcuate sum and divide by 2
          double sum = (number1+number2)/2;
-         System.out.println("sum of "+a+" + "+b+" devided by numebr of factors = "+sum);
+         System.out.println("sum of "+number1+" + "+number2+" devided by numebr of factors = "+sum);
      }
 }
 
