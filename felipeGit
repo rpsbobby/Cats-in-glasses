@@ -1,0 +1,23 @@
+
+        BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
+        
+    
+        try{
+            
+        System.out.println(" Enter First number:");
+        int number1 = Integer.parseInt (bf.readLine());
+        
+        System.out.println(" Enter second number:");
+        int number2 = Integer.parseInt (bf.readLine());
+        
+        int sum = number1 + number2 ;
+        
+        System.out.println ("The sum of " + number1 + "and" + number2 + "is" + sum);}
+   
+    
+        catch (Exception e) { 
+                        System.out.println("error this is not a number");  
+                }
+    }
+   }
+
